@@ -1,0 +1,1967 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+}
+@media only screen and (min-width:320px){
+.mobil{
+    display: block;
+}
+    .tablet{
+    display: none;
+}
+.desktop{
+    display: none;
+}
+    .forbg{
+        background-image: url(img1.jpg);
+        background-repeat: no-repeat;
+        background-position: top; 
+        width: 100%;
+        height: 124vh;
+    }
+    nav>img{
+        height: 41px;
+        margin-left: 20px;
+    }
+    nav{
+        width: 100%;
+        height: 103px;
+        background-color: #37353c;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .button_in_navbar{
+        background-color: #8D81AC;
+        border-radius: 26px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 121px;
+        height: 39px;
+        color: white;
+        font-size: 15px;
+        font-weight: 700;
+    }
+    .sagdaki_scroll_bar{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3,1fr);
+        gap: 5px;
+        margin-right: 16px;
+        transform: rotateY(180deg);
+    }
+    .ortadaki_sozler{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 50px;
+    }
+    .yuxaridaki{
+        color: white;
+        font-size: 48px;
+        font-weight: 700;
+    }
+    .ortadaki{
+        color: #8D81AC;
+        text-align: center;
+        font-size: 18px;
+        font-weight: 400;
+        margin: 15px;
+        width: 270px;
+    }
+    .asagidaki{
+        color: #848E97;
+    }
+    .button_ve_soz{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;    
+        margin-top: -25px;
+        }
+    .asagidaki_button{
+        background-color: #8D81AC;
+        border-radius: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 290px;
+        height: 45px;
+        color: white;
+        font-size: 18px;
+        font-weight: 700;
+    }
+    .buttonun_altindaki_soz{
+        width: 290px;
+        height: 45px;
+        color:#848E97;
+        font-size: 14px;
+        font-weight: 400;
+        text-align: center;
+        margin-top: 12px;
+    }
+    .revolutionary{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .revolutionary>h2{
+        color: #635C73;
+        font-size: 26px;
+        font-weight: 700;
+        text-align: center;
+        margin-top: 33px;
+        padding-left: 21px;
+        padding-right: 21px;
+        width: 273px;
+    }
+    .revolutionary>p{
+        color: #323232;
+        font-weight: 400;
+        font-size: 14px;
+        text-align: center;
+        font-family: "Lato", sans-serif;
+        width: 276px;
+        margin-top: 17px;
+    }
+    .revolutionary>div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 27px;
+        gap: 18px;
+    }
+    .cox_icon_olan_hisse_bir{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 100px;
+    }
+    .basliq{
+        color: #8D81AC;
+        font-size: 32px;
+        font-weight: 700;
+        text-align: center;
+        height: 100px;
+    }
+    .basliq>p{
+        width: 300px;
+    }
+    .icon1,.icon2,.icon3,.icon4{
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 14px;
+    }
+    .iconun_altindaki_soz{
+        color: #323232;
+        font-size: 16px;
+        font-weight: 400;
+    }
+    .icon1{
+        width: 320px;
+        font-size: 14px;
+        color: #848E97;
+    }
+    .icon2{
+        width: 320px;
+        font-size: 14px;
+        color: #848E97;
+    }
+    .icon3{
+        width: 320px;
+        font-size: 14px;
+        color: #848E97;
+    }
+    .icon4{
+        width: 320px;
+        font-size: 14px;
+        color: #848E97;
+    }
+    .iconlar_bir{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 30px;
+        margin-top: 25px;
+        margin-bottom: 50px;
+    }
+    .iconlarin_altindaki_sekil{
+        align-self: flex-end;
+    }
+    .iconlarin_altindaki_sekil>img{
+        width: 100%;
+        height: 381px;
+    }
+    .body{
+    background-image: url(testmonials-bg\ 2.jpg);
+    background-repeat: repeat-x;
+    background-position: top;
+    width: 100%;
+    height: 1545px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    gap: 44px;
+    .head{
+        color: white;
+        font-size: 36px;
+        font-weight: 700;
+        width: 320px;
+        margin-top: 60px;
+    }
+    .width_az{
+        width: 320px;
+    }
+    .width_az2{
+       margin-top: -28px;
+    }
+    .div_width{
+        width: 251px;  
+        color: #A291A5;
+        font-family: "Lato", sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+    }
+    .icon111{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 35px;
+        font-family: "Lato", sans-serif;
+        font-size: 16px;
+        font-weight: 700;  
+        color: white;
+        font-style: italic;      
+    }
+    .icon112{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 35px;
+        font-family: "Lato", sans-serif;
+        font-size: 16px;
+        font-weight: 700;  
+        color: white;
+        font-style: italic;
+    }
+    .icon113{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 35px;
+        font-family: "Lato", sans-serif;
+        font-size: 16px;
+        font-weight: 700;  
+        color: white;
+        font-style: italic;
+    }
+    .icon114{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 35px;
+        font-family: "Lato", sans-serif;
+        font-size: 16px;
+        font-weight: 700;  
+        color: white;
+        font-style: italic;
+    }
+    .icon115{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 35px;
+        font-family: "Lato", sans-serif;
+        font-size: 16px;
+        font-weight: 700;  
+        color: white;
+        font-style: italic;
+    }
+    .icon116{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 35px;
+        font-family: "Lato", sans-serif;
+        font-size: 16px;
+        font-weight: 700;  
+        color: white;
+        font-style: italic;
+    }
+    .imic{
+        margin-top: -35px;
+    }
+    }
+    .cards{
+        background-color: #4c3b4e;
+        height: 2189px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;    
+        text-align: center;
+        gap: 44px;
+        .cardheading>p{
+            padding-top: 53px;
+            font-size: 28px;
+            color: white;
+            text-align: center;
+            font-weight: 700;
+        }
+        .cardheading{
+            width: 320px;
+        }
+        .card1{
+            width: 257px;
+            height: 457px;
+            background-color: #5f5161;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 33px;
+        }
+        .card1>.basliq1{
+            color: white;
+            background-color: #695b6a;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 400;
+            width: 257px;
+            margin-top: -50px;
+            font-size: 32px;
+            height: 97px;
+        }
+        .qiymet{
+            color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            gap: 22px;
+            
+        }
+        .qiymet>img{
+            padding-top: 17px;
+        }
+        .qiym{
+font-size: 60px;
+font-weight: 400;
+        }
+        .qiym>span{
+            font-weight: 700; 
+        }
+        .ay{
+            font-size: 14px;
+font-weight: 400;
+
+        }
+.personal{
+    font-size: 16px;
+font-weight: 400;
+}
+        .card1>.but{
+color: white;
+font-size: 15px;
+font-weight: 400;
+background-color: #776b79;
+width: 160px;
+height: 42px;
+margin-bottom: 80px;
+border-radius: 30px;
+display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+
+
+
+
+
+        .card2{
+            width: 257px;
+            height: 457px;
+            background-color: #5f5161;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 33px;
+        }
+        .card2>.basliq2{
+            color: white;
+            background-color: #695b6a;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 400;
+            width: 257px;
+            height: 97px;
+            margin-top: -50px;
+            font-size: 24px;
+        }
+        .qiymet2{
+            color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            gap: 22px;
+            
+        }
+        .qiymet2>img{
+            padding-top: 17px;
+        }
+        .qiym2{
+font-size: 60px;
+font-weight: 400;
+        }
+        .qiym2>span{
+            font-weight: 700; 
+        }
+        .ay2{
+            font-size: 14px;
+font-weight: 400;
+
+        }
+.personal2{
+    font-size: 16px;
+font-weight: 400;
+width: 200px;
+}
+        .card2>.but2{
+color: white;
+font-size: 15px;
+font-weight: 400;
+background-color: #776b79;
+width: 160px;
+height: 42px;
+border-radius: 30px;
+display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .card3{
+            width: 299px;
+            height: 546px;
+            background-color: #473249;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            
+            
+        }
+        .card3>.basliq3{
+            color: white;
+            background-color: #3f2d41;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 400;
+            width: 299px;
+            height: 97px;
+            font-size: 24px;
+        }
+        .qiymet3{
+            color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 15px;
+        }
+        .qiymet3>img{
+            padding-top: 43px;
+            padding-bottom: 25px;
+        }
+        .qiym3{
+font-size: 60px;
+font-weight: 400;
+        }
+        .qiym3>span{
+            font-weight: 700; 
+        }
+        .ay3{
+            font-size: 14px;
+font-weight: 400;
+        }
+.personal3{
+    font-size: 16px;
+font-weight: 400;
+width: 200px;
+padding-bottom: 10px;
+}
+        .card3>.but3{
+color: white;
+font-size: 15px;
+font-weight: 400;
+background-color: #776b79;
+width: 160px;
+height: 42px;
+border-radius: 30px;
+display: flex;
+            align-items: center;
+            justify-content: center;
+             margin-top: 74px;
+        }
+
+        .card4{
+            width: 257px;
+            height: 457px;
+            background-color: #5f5161;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 33px;
+            margin-bottom: 30px;
+        }
+        .card4>.basliq4{
+            color: white;
+            background-color: #695b6a;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 400;
+            width: 257px;
+            height: 97px;
+            margin-top: -50px;
+            font-size: 24px;
+        }
+        .qiymet4{
+            color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            gap: 22px;
+            
+        }
+        .qiymet4>img{
+            padding-top: 17px;
+        }
+        .qiym4{
+font-size: 60px;
+font-weight: 400;
+        }
+        .qiym4>span{
+            font-weight: 700; 
+        }
+        .ay4{
+            font-size: 14px;
+            font-weight: 400;
+        }
+.personal4{
+    font-size: 16px;
+font-weight: 400;
+width: 224px;
+}
+.personal44{
+    font-size: 16px;
+font-weight: 400;
+width: 224px;
+margin-top: -10px;
+}
+        .card4>.but4{
+color: white;
+font-size: 15px;
+font-weight: 400;
+background-color: #776b79;
+width: 160px;
+height: 42px;
+border-radius: 30px;
+display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+    }
+@media only screen and (min-width:768px){
+.mobil{
+    display: none;
+}
+.desktop{
+    display: none;
+}
+.tablet{
+    display: block;
+}
+.forbgt{
+    background-image: url(img1.jpg);
+    background-repeat: no-repeat;
+    background-position: top; 
+    width: 100%;
+    height: 124vh; 
+}
+.t>img{
+    height: 41px;
+    margin-left: 20px;
+}
+.t{
+    width: 100%;
+    height: 60px;
+    background-color: #27262a;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;  
+}
+.L{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30px;
+    margin-top: -20px;
+    gap: 16px;
+}
+.L>p{
+    font-size: 24px;
+    font-weight: 700;
+    font-family: "Lato", sans-serif;
+    color: #8D81AC;
+    padding-top: 10px;
+}
+.esas{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #27262a;
+}
+.navv{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 48px;
+    color: #8D81AC;
+    font-weight: 700;
+    font-size: 16px;
+}
+.button_in_navbar{
+    background-color: #8D81AC;
+    border-radius: 26px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 145px;
+    height: 38px;
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    margin-right: 20px;
+    margin-top: -10px;
+}
+.ortadaki_sozler{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.yuxaridaki{
+    color: white;
+    font-size: 72px;
+    font-weight: 700;
+}
+.ortadaki{
+    color: #8D81AC;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+    margin: 15px;
+    width: 700px;
+}
+.asagidaki{
+    color: #848E97;
+}
+.button_ve_sozt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;    
+    margin-top: -25px;
+    }
+.asagidaki_buttont{
+    background-color: #8D81AC;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 390px;
+    height: 62px;
+    color: white;
+    font-size: 21px;
+    font-weight: 700;
+}
+.buttonun_altindaki_sozt{
+    width: 290px;
+    height: 45px;
+    color:#848E97;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 12px;
+}
+.revolutionaryt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.revolutionaryt>h2{
+    color: #635C73;
+    font-size: 42px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 33px;
+    padding-left: 21px;
+    padding-right: 21px;
+}
+.revolutionaryt>p{
+    color: #323232;
+    font-weight: 400;
+    font-size: 21px;
+    text-align: center;
+    font-family: "Lato", sans-serif;
+    width: 689px;
+    margin-top: 17px;
+}
+.revolutionaryt>div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 27px;
+}
+.cox_icon_olan_hisse_birt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.basliqt{
+    color: #8D81AC;
+    font-size: 42px;
+    font-weight: 700;
+    text-align: center;
+    height: 100px;
+}
+.basliqt>p{
+    width: 541px;
+    
+}
+.icon1t,.icon2t,.icon3t,.icon4t{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 14px;
+}
+.iconun_altindaki_sozt{
+    color: #323232;
+    font-size: 16px;
+    font-weight: 400;
+}
+.icon1t{
+    width: 660px;
+    font-size: 14px;
+    color: #848E97;
+}
+.icon2t{
+    width: 660px;
+    font-size: 14px;
+    color: #848E97;
+}
+.icon3t{
+    width: 660px;
+    font-size: 14px;
+    color: #848E97;
+}
+.icon4t{
+    width: 725px;
+    font-size: 14px;
+    color: #848E97;
+}
+.icon4t>img{
+    margin-left: 30px;
+}
+.iconlar_birt{
+    align-self: flex-start;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 63px;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    margin-left: 30px;
+}
+.iconlarin_altindaki_sekilt{
+    align-self: flex-end;
+}
+.iconlarin_altindaki_sekilt>img{
+    width: 100%;
+    height: 519px;
+}
+.i1{
+margin-left: 6px;
+}
+.i2{
+margin-left: 27px;
+}
+.i3{
+margin-left: 53px;
+}
+.i4{
+margin-left: 44px;
+}
+.bodyt{
+    background-image: url(testmonials-bg\ 1.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    width: 100%;
+    height: 895px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    gap: 77px;
+    .headt{
+        color: white;
+        font-size: 36px;
+        font-weight: 700;
+        width: 711px;
+        margin-top: 60px;
+    }
+    .width_azt{
+        width: 320px;
+    }
+     .iiiconlar{
+       align-self: flex-start;
+       display: grid;
+       grid-template-columns: 1fr 1fr;
+       grid-template-rows: 1fr 1fr 1fr;
+       width: 100%;
+       row-gap: 50px;       
+     }
+    .div_widtht{
+        width: 704px;  
+        color: #A291A5;
+        font-family: "Lato", sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        margin-top: -56px;
+    }
+    .icon111t{
+        align-self: flex-start;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+        font-family: "Lato", sans-serif;
+        font-size: 14px;
+        font-weight: 500;  
+        color: white;
+        font-style: italic;      
+    }
+    .icon112t{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 27px;
+        font-family: "Lato", sans-serif;
+        font-size: 14px;
+        font-weight: 500;  
+        color: white;
+        font-style: italic;
+        margin-top: 10px;
+    }
+    .icon112t>img{
+        margin-top: -12px;
+    }
+    .icon113t{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 22px;
+        font-family: "Lato", sans-serif;
+        font-size: 14px;
+        font-weight: 500;  
+        color: white;
+        font-style: italic;
+    }
+    .icon114t{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-family: "Lato", sans-serif;
+        font-size: 14px;
+        font-weight: 500;  
+        color: white;
+        font-style: italic;
+        margin-top: 31px;
+    }
+    .icon114t>p{
+        margin-top: 34px;
+    }
+    .icon115t{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 21px;
+        font-family: "Lato", sans-serif;
+        font-size: 14px;
+        font-weight: 500;  
+        color: white;
+        font-style: italic;
+    }
+    .icon116t{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 28px;
+        font-family: "Lato", sans-serif;
+        font-size: 14px;
+        font-weight: 500;  
+        color: white;
+        font-style: italic;
+    }
+    .imict{
+        margin-top: -73px;
+    }
+    .imict>img{
+        width: 555px;
+        height: 2px;
+    }
+    }    
+    .cardst{
+        background-color: #4b3b4e;
+        background-image: url(Layer\ 2.jpg);
+    background-repeat: repeat-x;
+    background-position: top;
+    width: 100%;
+    height: 1464px; 
+    margin-top: -133px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;    
+        text-align: center;
+        gap: 44px;
+        .cardheadingt>p{
+            padding-top: 53px;
+            font-size: 42px;
+            color: white;
+            text-align: center;
+            font-weight: 700;
+            margin-top: 162px;
+        }
+        .cardheadingt{
+            width: 562px;
+        }
+        .caaard{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+            width: 100%;
+            margin-bottom: 144px;
+        }
+        .card1t{
+            justify-self: center;
+            width: 257px;
+            height: 457px;
+            background-color: #64576c82;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 33px;
+        }
+        .card1t>.basliq1t{
+            color: white;
+            background-color: #685b6a;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 400;
+            width: 257px;
+            font-size: 24px;
+            height: 97px;
+        }
+        .qiymett{
+            color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            gap: 10px;   
+        }
+        .qiymett>img{
+            padding-top: 17px;
+            margin-bottom: 17px;
+        }
+        .qiymt{
+font-size: 60px;
+font-weight: 400;
+        }
+        .qiymt>span{
+            font-weight: 700; 
+        }
+        .ayt{
+            font-size: 14px;
+font-weight: 400;
+        }
+.personalt{
+    font-size: 16px;
+font-weight: 400;
+margin-bottom: 29px;
+}
+        .card1t>.butt{
+color: white;
+font-size: 15px;
+font-weight: 400;
+background-color: #776b79;
+width: 160px;
+height: 42px;
+margin-bottom: 42px;
+border-radius: 30px;
+display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .card2t{
+            justify-self: center;
+            width: 257px;
+            height: 457px;
+            background-color: #64576c82;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 47px;
+        }
+        .card2t>.basliq2t{
+            color: white;
+            background-color: #685b6a;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 400;
+            width: 257px;
+            height: 97px;
+            margin-bottom: -16px;
+            font-size: 24px;
+        }
+        .qiymet2t{
+            color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            gap: 8px;  
+        }
+        .qiymet2t>img{
+            padding-top: 17px;
+            margin-bottom: 17px;
+        }
+        .qiym2t{
+font-size: 60px;
+font-weight: 400;
+        }
+        .qiym2t>span{
+            font-weight: 700; 
+        }
+        .ay2t{
+            font-size: 14px;
+font-weight: 400;
+        }
+.personal2t{
+    font-size: 16px;
+font-weight: 400;
+width: 200px;
+}
+        .card2t>.but2t{
+color: white;
+font-size: 15px;
+font-weight: 400;
+background-color: #776b79;
+width: 160px;
+height: 42px;
+border-radius: 30px;
+display: flex;
+            align-items: center;
+            justify-content: center;            
+        }
+        .card3t{
+            justify-self: center;
+            width: 299px;
+            height: 560px;
+            background-color: #473249;
+            display: flex;
+            flex-direction: column;
+            align-items: center;  
+            margin-top: -35px;         
+        }
+        .card3t>.basliq3t{
+            color: white;
+            background-color: #3f2d41;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 400;
+            width: 299px;
+            height: 111px;
+            font-size: 24px;
+        }
+        .qiymet3t{
+            color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 15px;
+            margin-top: 4px;
+        }
+        .qiymet3t>img{
+            padding-top: 30px;
+            padding-bottom: 25px;
+        }
+        .qiym3t{
+font-size: 60px;
+font-weight: 400;
+        }
+        .qiym3t>span{
+            font-weight: 700; 
+        }
+        .ay3t{
+            font-size: 14px;
+font-weight: 400;
+        }
+.personal3t{
+    font-size: 16px;
+font-weight: 400;
+width: 200px;
+padding-bottom: 100px;
+}
+        .card3t>.but3t{
+color: white;
+font-size: 15px;
+font-weight: 400;
+background-color: #776b79;
+width: 160px;
+height: 42px;
+border-radius: 30px;
+display: flex;
+            align-items: center;
+            justify-content: center;
+             /* margin-top: 74px; */
+        }
+        .card4t{
+            justify-self: center;
+            width: 257px;
+            height: 457px;
+            background-color: #5f5161;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 33px;
+            margin-bottom: 30px;
+        }
+        .card4t>.basliq4t{
+            color: white;
+            background-color: #695b6a;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 400;
+            width: 257px;
+            height: 97px;
+            margin-top: -50px;
+            font-size: 24px;
+        }
+        .qiymet4t{
+            color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            gap: 22px;           
+        }
+        .qiymet4t>img{
+            padding-top: 17px;
+        }
+        .qiym4t{
+font-size: 60px;
+font-weight: 400;
+        }
+        .qiym4t>span{
+            font-weight: 700; 
+        }
+        .ay4t{
+            font-size: 14px;
+            font-weight: 400;
+        }
+.personal4t{
+    font-size: 16px;
+font-weight: 400;
+width: 224px;
+}
+.personal44t{
+    font-size: 16px;
+font-weight: 400;
+width: 224px;
+margin-top: -10px;
+}
+        .card4t>.but4t{
+color: white;
+font-size: 15px;
+font-weight: 400;
+background-color: #776b79;
+width: 160px;
+height: 42px;
+border-radius: 30px;
+display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+}
+@media only screen and (min-width:1200px){
+.desktop{
+    display: block;
+}
+.mobil{
+    display: none;
+}
+.tablet{
+        display: none;
+}
+.forbgd{
+    background-image: url(img1.jpg);
+    background-repeat: no-repeat;
+    background-position: top; 
+    background-size: cover;
+    width: 100%;
+    height: 800px; 
+}
+.d>img{
+    height: 41px;
+    margin-left: 20px;
+}
+.d{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;  
+}
+.Ld{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-left: 65px;
+    gap: 16px;
+}
+.Ld>p{
+    font-size: 24px;
+    font-weight: 700;
+    font-family: "Lato", sans-serif;
+    color: #8D81AC;
+    padding-top: 10px;
+}
+.esasd{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+#navd{
+    background-color: rgba(250, 250, 250, 0);
+}
+.navvd{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 48px;
+    color: #8D81AC;
+    font-weight: 700;
+    font-size: 16px;
+    width: 70%;
+}
+.button_in_navbard{
+    background-color: #8D81AC;
+    border-radius: 26px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 145px;
+    height: 38px;
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    margin-right: 20px;
+    margin-top: -10px;
+}
+.ortadaki_sozlerd{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.yuxaridakid{
+    color: white;
+    font-size: 82px;
+    font-weight: 700;
+}
+.ortadakid{
+    color: #8D81AC;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+    margin: 15px;
+    width: 870px;
+}
+.asagidakid{
+    color: #848E97;
+    font-size: 16px;
+}
+.button_ve_sozd{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;    
+    margin-top: -25px;
+    }
+.asagidaki_buttond{
+    background-color: #8D81AC;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 390px;
+    height: 62px;
+    color: white;
+    font-size: 21px;
+    font-weight: 700;
+}
+.buttonun_altindaki_sozd{
+    width: 290px;
+    height: 45px;
+    color:#848E97;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 20px;
+}
+.revolutionaryd{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.revolutionaryd>h2{
+    color: #635C73;
+    font-size: 54px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 33px;
+    padding-left: 21px;
+    padding-right: 21px;
+}
+.revolutionaryd>p{
+    color: #323232;
+    font-weight: 400;
+    font-size: 21px;
+    text-align: center;
+    font-family: "Lato", sans-serif;
+    width: 863px;
+    margin-top: 27px;
+}
+.revolutionaryd>div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 38px;
+}
+.cox_icon_olan_hisse_bird{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 80px;
+    background-color: #f4f4f4;
+    width: 100%;
+}
+.basliqd{
+    color: #8D81AC;
+    font-size: 42px;
+    font-weight: 700;
+    text-align: center;
+    height: 62px;
+    margin-left: 14px;
+    margin-top: 78px;
+}
+.basliqd>p{
+    width: 541px;
+}
+.icon1d,.icon2d,.icon3d,.icon4d{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 14px;
+}
+.iconun_altindaki_sozd{
+    color: #323232;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+.icon1d{
+    width: 519px;
+    font-size: 14px;
+    color: #848E97;
+}
+.icon1d>img{
+    margin-bottom: -4px;
+}
+.icon2d{
+    width: 533px;
+    font-size: 14px;
+    color: #848E97;
+}
+.icon2d>img{
+    margin-bottom: -4px;
+}
+.icon3d{
+    width: 533px;
+    font-size: 14px;
+    color: #848E97;
+}
+.icon3d>img{
+    margin-bottom: 18px;
+    margin-left: 10px;
+}
+.icon4d{
+    width: 555px;
+    font-size: 14px;
+    color: #848E97;
+}
+.icon4d>img{
+    margin-left: 18px;
+    margin-bottom: -4px;
+}
+.iconlar_bird{
+    align-self: flex-start;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 63px;
+    margin-top: 87px;
+    margin-bottom: 50px;
+    margin-left: 30px;
+}
+.iconlarin_altindaki_sekild{
+    align-self: flex-end;
+}
+.iconlarin_altindaki_sekild>img{
+    width: 100%;
+    height: 575px;
+}
+.i1d{
+margin-left: 6px;
+}
+.i2d{
+margin-left: 27px;
+}
+.i3d{
+margin-left: 53px;
+}
+.i4d{
+margin-left: 44px;
+}
+.bodyd{
+    background-image: url(testmonials-bg\ 1.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    width: 100%;
+    height: 895px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    .headd{
+        color: white;
+        font-size: 48px;
+        font-weight: 700;
+        width: 783px;
+        margin-top: 60px;
+    }
+    .width_azd{
+        width: 390px;
+    }
+     .iiiconlard{
+       align-self: flex-start;
+       display: grid;
+       grid-template-columns: 1fr 1fr 1fr;
+       grid-template-rows: 1fr 1fr;
+       width: 100%;
+       row-gap: 105px;       
+     }
+    .div_widthd{
+        width: 887px;  
+        color: #A291A5;
+        font-family: "Lato", sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        margin-top: 65px;
+    }
+    .icon111d{
+        align-self: flex-start;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+        font-family: "Lato", sans-serif;
+        font-size: 16px;
+        font-weight: 500;  
+        color: white;
+        font-style: italic;      
+    }
+    .icon112d{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 27px;
+        font-family: "Lato", sans-serif;
+        font-size: 16px;
+        font-weight: 500;  
+        color: white;
+        font-style: italic;
+        margin-top: 8px;
+    }
+    .icon112d>p{
+        width: 412px;
+    }
+    .icon112d>img{
+        margin-top: -12px;
+    }
+    .icon113d{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 22px;
+        font-family: "Lato", sans-serif;
+        font-size: 16px;
+        font-weight: 500;  
+        color: white;
+        font-style: italic;
+        margin-top: -33px;
+    }
+    .icon114d{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-family: "Lato", sans-serif;
+        font-size: 16px;
+        font-weight: 500;  
+        color: white;
+        font-style: italic;
+        margin-top: 31px;
+    }
+    .icon114d>p{
+        margin-top: 34px;
+    }
+    .icon115d{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 32px;
+        font-family: "Lato", sans-serif;
+        font-size: 16px;
+        font-weight: 500;  
+        color: white;
+        font-style: italic;
+        margin-top: 22px;
+    }
+    .icon115d>p{
+        width: 412px;
+    }
+    .icon116d{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 32px;
+        font-family: "Lato", sans-serif;
+        font-size: 16px;
+        font-weight: 500;  
+        color: white;
+        font-style: italic;
+        margin-top: 22px;
+    }
+    .imicd{
+        margin-top: -74px;
+    }
+    .imicd>img{
+        width: 809px;
+        height: 2px;
+    }
+    }
+    .cardsd{
+        background-color: #4b3b4e;
+        background-image: url(Layer\ 2.jpg);
+    background-repeat: repeat-x;
+    background-position: top;
+    width: 100%;
+    height: 822px; 
+    margin-top: -7px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 106px;
+        .cardheadingd>p{
+            font-size: 42px;
+            color: white;
+            text-align: center;
+            font-weight: 700;
+            margin-top: 62px;
+        }
+        .cardheadingd{
+            width: 562px;
+        }
+        .caaardd{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            grid-template-rows: 1fr;
+            width: 100%;
+            margin-bottom: 144px;
+        }
+        .card1d{
+            justify-self: center;
+            width: 257px;
+            height: 457px;
+            background-color: #64576c82;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 33px;
+        }
+        .card1d>.basliq1d{
+            color: white;
+            background-color: #685b6a;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 400;
+            width: 257px;
+            font-size: 24px;
+            height: 97px;
+        }
+        .qiymetd{
+            color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            gap: 10px;   
+        }
+        .qiymetd>img{
+            padding-top: 17px;
+            margin-bottom: 17px;
+        }
+        .qiymd{
+font-size: 60px;
+font-weight: 400;
+        }
+        .qiymd>span{
+            font-weight: 700; 
+        }
+        .ayd{
+            font-size: 14px;
+font-weight: 400;
+        }
+.personald{
+    font-size: 16px;
+font-weight: 400;
+margin-bottom: 29px;
+}
+        .card1d>.butd{
+color: white;
+font-size: 15px;
+font-weight: 400;
+background-color: #776b79;
+width: 160px;
+height: 42px;
+margin-bottom: 42px;
+border-radius: 30px;
+display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .card2d{
+            justify-self: center;
+            width: 257px;
+            height: 457px;
+            background-color: #64576c82;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 47px;
+        }
+        .card2d>.basliq2d{
+            color: white;
+            background-color: #685b6a;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 400;
+            width: 257px;
+            height: 97px;
+            margin-bottom: -16px;
+            font-size: 24px;
+        }
+        .qiymet2d{
+            color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            gap: 8px;  
+        }
+        .qiymet2d>img{
+            padding-top: 17px;
+            margin-bottom: 17px;
+        }
+        .qiym2d{
+font-size: 60px;
+font-weight: 400;
+        }
+        .qiym2d>span{
+            font-weight: 700; 
+        }
+        .ay2d{
+            font-size: 14px;
+font-weight: 400;
+        }
+.personal2d{
+    font-size: 16px;
+font-weight: 400;
+width: 200px;
+}
+        .card2d>.but2d{
+color: white;
+font-size: 15px;
+font-weight: 400;
+background-color: #776b79;
+width: 160px;
+height: 42px;
+border-radius: 30px;
+display: flex;
+            align-items: center;
+            justify-content: center;            
+        }
+        .card3d{
+            justify-self: center;
+            width: 299px;
+            height: 560px;
+            background-color: #473249;
+            display: flex;
+            flex-direction: column;
+            align-items: center;  
+            margin-top: -35px;         
+        }
+        .card3d>.basliq3d{
+            color: white;
+            background-color: #3f2d41;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 400;
+            width: 299px;
+            height: 111px;
+            font-size: 24px;
+        }
+        .qiymet3d{
+            color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 15px;
+            margin-top: 4px;
+        }
+        .qiymet3d>img{
+            padding-top: 30px;
+            padding-bottom: 25px;
+        }
+        .qiym3d{
+font-size: 60px;
+font-weight: 400;
+        }
+        .qiym3d>span{
+            font-weight: 700; 
+        }
+        .ay3d{
+            font-size: 14px;
+font-weight: 400;
+        }
+.personal3d{
+    font-size: 16px;
+font-weight: 400;
+width: 200px;
+padding-bottom: 100px;
+}
+        .card3d>.but3d{
+color: white;
+font-size: 15px;
+font-weight: 400;
+background-color: #776b79;
+width: 160px;
+height: 42px;
+border-radius: 30px;
+display: flex;
+            align-items: center;
+            justify-content: center;
+             /* margin-top: 74px; */
+        }
+        .card4d{
+            justify-self: center;
+            width: 257px;
+            height: 457px;
+            background-color: #64576c82;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 26px;
+            /* margin-bottom: 30px; */
+        }
+        .card4d>.basliq4d{
+            color: white;
+            background-color: #685b6a;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 400;
+            width: 257px;
+            height: 97px;
+            /* margin-top: -21px; */
+            font-size: 24px;
+        }
+        .qiymet4d{
+            color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            gap: 22px;           
+        }
+        .qiymet4d>img{
+            padding-top: 17px;
+        }
+        .qiym4d{
+font-size: 60px;
+font-weight: 400;
+        }
+        .qiym4d>span{
+            font-weight: 700; 
+        }
+        .ay4d{
+            font-size: 14px;
+            font-weight: 400;
+        }
+.personal4d{
+    font-size: 16px;
+font-weight: 400;
+width: 224px;
+}
+.personal44d{
+    font-size: 16px;
+font-weight: 400;
+width: 224px;
+margin-top: -10px;
+}
+        .card4d>.but4d{
+color: white;
+font-size: 15px;
+font-weight: 400;
+background-color: #776b79;
+width: 160px;
+height: 42px;
+border-radius: 30px;
+display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 37px;
+        }
+    }
+.reng{
+    display: none;
+}
+.Ld:hover{
+    .reng{
+        display: block;
+    }
+    .huy{
+            color: white;
+    }
+    .f{
+        display: none;
+    }
+}
+.navvd>p:hover{
+    color: white;
+}
+.navvd>.button_in_navbard:hover{
+    background-color: white;
+    color: #8D81AC;
+}
+.asagidaki_buttond:hover{
+    background-color: white;
+    color: #8D81AC;
+    border: 2px solid #8D81AC;
+}
+
+
+
+
+
+
+
+
+}
