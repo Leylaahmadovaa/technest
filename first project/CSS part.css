@@ -1,0 +1,266 @@
+body{
+  background-image: url(v.jpg); /*soldakı şəkil*/
+  background-repeat: no-repeat; /*təkrarlanmasın deyə*/
+}
+.logo{/*bu klass kursun loqosunu düzəltmək üçün işlənib*/
+  font-size: 80px;
+  margin: -9px 260px 0px -43px;
+  font-style: oblique;
+  font-weight: 1000;/*bu hissə mütləq 500dən yuxarı olmalıdı əks halda heç bir dəyişiklik olmuyacaq*/
+  font-family:  Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: rgb(38, 127, 205);
+  border: 11px solid white;
+  background-color: white;
+  border-radius: 49px;
+}
+.nav{/*bu navigation bar üçün istifadə olunan klasdı*/
+  font-size: 33px;
+  margin: 0px 0px 0px 85px;
+  font-style: oblique;
+  font-weight: 1000;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  transition: all 1s;
+}
+.nav:hover{/*pseudo klas tətbiq olunub ki navigation bardakı sözlərin üzərinə oxu gətirən zaman sözlər böyüsün*/
+  font-size: 37px;
+}
+.list{/*bu klass bir çox listlərə tətbiq olunub*/
+  list-style: none;
+  display: inline-flex;/*bir cərgədə düzmək üçün işlənir*/
+}
+.link{
+  text-decoration: none;/*linkin altındakı xətti yox etmək üçün işlətdim*/
+  color: rgb(38, 127, 205);
+}
+.piar{/*kursun böyuk hərflərlə yazılan şüarına dizayn vermək üçün istifadə etmişəm*/
+  font-size: 80px;
+  margin: 170px 0px 0px 646px;
+  font-style: oblique;
+  font-weight: 1000;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: rgb(62 86 101);
+  border: 11px solid white;
+  background-color: white;
+  border-radius: 49px;
+}
+.piar1{/*kursun nisbətən kiçik hərflərlə yazılan şüarına dizayn vermək üçün istifadə etmişəm*/
+  font-size: 35px;
+  margin: -11px 0px 0px 653px;
+  font-style: oblique;
+  font-weight: 1000;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: rgb(78 152 191);
+  border: 11px solid white;
+  background-color: white;
+  border-radius: 49px;
+}
+.smallcomment{/*kursun kiçik hərflərlə yazılan şüarına dizayn vermək üçün istifadə etmişəm*/
+    font-size: 19px;
+    margin: -14px 0px 0px 669px;
+    font-style: oblique;
+    font-weight: 1000;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    color: rgb(148 143 143);
+    border: 11px solid white;
+    background-color: white;
+    border-radius: 49px;
+}
+.buton{/*bu klass "Start" düyməsinə dizayn vermək üçün işlənib*/
+    margin: 44px 0px 0px 919px;
+    width: 173px;
+    height: 70px;
+    border-radius: 26px;
+    background-color: #ffd900;
+    border-width: 2px;
+    transition: all 0.5s;
+}
+.buton:hover{/*Ox üzərinə gətirən zaman "Star" düyməsi aşağıdakı propery-lər ilə dəyişsin*/
+  width: 180px;
+  height: 77px;
+  border-radius: 30px;
+  border-width: 5px;
+}
+.butonsozu{/*"Start" düyməsinin içindəki "Start" sözünə dizayn vermək üçün işlətdim*/
+  font-size: 36px;
+  font-style: oblique;
+  font-weight: 1000;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: rgb(0, 0, 0);
+  margin: 0px 0px 0px 0px;
+}
+.xett{/*səhifədə bir ayırıcı rol oynamaq üçün işlətdim*/
+  border: 5px solid #c6cecc;
+  margin: -69px -8px 0px 557px;
+}
+.field{/*"Təhsil sahələri" sözünü dizayn etmək üçün işlətdim*/
+    font-size: 80px;
+    margin: 259px -8px 27px -7px;
+    font-style: oblique;
+    font-weight: 1000;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    color: rgb(56 75 92);
+    border: 11px solid #bac1bf;
+    background-color: #bac1bf;
+}
+.sahe{/*hər bir sahəyə eyni dizaynı vermək üçün işlətdim*/
+  font-size: 36px;
+  margin: 0px 0px 0px 95px;
+  font-style: oblique;
+  font-weight: 1000;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+}
+.link1{/*bu da hər bir sahə linkinin dizaynını dəyişmək üçün işlətdim*/
+  text-decoration: none;
+  color: rgb(32, 97, 153);
+}
+.sekiller{/*hər sahənin şəkillərinə eyni dizaynı vermək üçün işlətdim*/
+  height: 250px;
+  width: 314px;
+  margin: 0px 0px 0px 22px;
+  border-radius: 65px;
+  transition: all 1s;
+}
+.sekiller:hover{/*oxu şəkilin üzərinə gətirəndə şəkil böyüyür*/
+  height: 260px;
+  width: 330px;
+}
+.num{/*"BURADA RƏQƏMLƏR DANIŞIR" sözünə dizayn vermək üçün işlətdim*/
+  font-size: 80px;
+  margin: 200px 0px 0px -6px;
+  font-style: oblique;
+  font-weight: 1000;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color:rgb(80, 98, 100);
+}
+.reqemlerdanisir{/*hər rəqəm kateqoriyasına individual olaraq ayrladığım property-ləri vermişəm*/
+  font-size: 50px;
+  margin: 150px 0px 0px 143px;
+  font-style: oblique;
+  font-weight: 1000;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: rgb(31 79 116);
+}
+.com1{/*Həmin rəqəm kateqoriyasının aşağısındakı cümləyə individual dizayn vermək üçün işlətdim*/
+  font-size: 20px;
+  font-style: oblique;
+  font-weight: 1000;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: rgb(116 128 137);
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+}
+.reqemlerdanisir1{
+  font-size: 50px;
+  margin: -80px 0px 0px 44px;
+  font-style: oblique;
+  font-weight: 1000;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: rgb(31 79 116);
+}
+.com2{
+  font-size: 20px;
+  font-style: oblique;
+  font-weight: 1000;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: rgb(116 128 137);
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+}
+.reqemlerdanisir2{
+  margin: 15px 0px 0px 552px;
+}
+.reqemlerdanisir3{
+  font-size: 50px;
+  margin: -80px 0px 0px 218px;
+  font-style: oblique;
+  font-weight: 1000;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: rgb(31 79 116);
+}
+.reqemlerdanisir4{
+  font-size: 50px;
+  margin: 150px 119px 0px 74px;
+  font-style: oblique;
+  font-weight: 1000;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: rgb(31 79 116);
+}
+.forumsize{/*Bunu form-un çərçivəsi yəni fieldset üçün dizayn vermişəm*/
+    width: 290px;
+    border: 11px solid rgb(158 176 190);
+    border-radius: 27px;
+    margin: 158px 0px 0px 800px;
+    color:  rgb(199 198 193) ;
+    font-size: 20px;
+    text-align: center;
+}
+.apply{/*bunu da legend üçün dizayn vermişəm*/
+  font-size: 50px;
+  font-style: oblique;
+  font-weight: 1000;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color:rgb(184 193 201);
+}
+.applyinyanindakisekil{/*bu isə form-un arxasındakı şəkildir ona property-lər vermişəm*/
+    border: 11px solid rgb(158 176 190);
+    height: 500px;
+    width: 1452px;
+    position: absolute;/*Bu həmin elementin öz yerini unutması üçün vermişəm*/
+    left: 0px;
+    top: 1910px;
+}
+.indexofform{/*bunu isə forum üçün vermişəm ki form ön plana çıxsın və şəkil arxada qalsın*/
+  z-index: 1;
+}
+i{/*bunu ikon-lar üçün vermişəm*/
+  font-size: 70px;
+  color: black;
+}
+.a:visited{/*bunu ikona verdiyim linkə vermişəm ki həmin ikona basanda link kimi vermişəm deyə linkin rəngi dəyişməsin deyə vermişəm*/
+  color: black;
+}
+i:hover{/*oxu ikon-un üzərinə gətirəndə rəngi dəyişsin deyə verdim*/
+ color: rgb(114, 112, 112);
+}
+.p{/*Ən axırdakı "Biz burdayıq" sözünə dizayn vermək üçün işlətmişəm*/
+  display: inline-block;/*özünü həm block level həm də inline element kimi aparsın deyə vermişəm*/
+  font-size: 20px;
+  margin: 20px 0px 0px 30px;
+  font-weight: 1000;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: black;
+  position: absolute;
+}
+.b1{/*bunları yerləşməni ayarlamaq üçün vermişəm*/
+  margin: 0px 0px 0px 800px;
+}
+.b2{
+  margin: 0px 0px 20px 0px;
+}
+.b3{
+  margin: 50px 0px 0px 0px;
+}
+.list1{/*bu da html-dəki axır hissələrdə ikinci li elementində görünüşü ayarlamaq üçündür*/
+  list-style: none;
+}
+.rights{/*Ən axırdakı "Bütün hüquqlar qorunur" sözünə dizayn vermək üçün işlətmişəm*/
+  display: inline-block;  
+  font-size: 20px;
+  margin: 20px 0px 0px 14px;
+  font-weight: 1000;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: black;
+  position: absolute;
+}
+iframe{/*konumun ölçüsünü ayarlamaq üçün vermişəm*/
+    height: 128px;
+    width: 458px;
+    margin: 0px 0px 0px -150px;
+}
+.divv{/*konuma çərçivə vermək üçün istifadə etmişəm*/
+  border: 11px solid rgb(0, 47, 83);
+  border-radius: 15px;
+  width: 100px;
+  padding: 0px 210px 0px 150px;
+  margin: 0px 0px 0px -175px;
+}
