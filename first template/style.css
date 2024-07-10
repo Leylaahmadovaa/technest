@@ -1,0 +1,123 @@
+body{
+    background-color: #3e27a1;
+    margin: 0px;
+    padding: 0px;
+    font-family: "DM Sans";
+}
+.nav2{
+    display: flex;
+    padding: 40px 230px;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    
+    height: 20px;
+    margin: 20px 0px 0px 0px;
+}
+
+.h12{
+    font-size: 28px;
+}
+.right2{
+    display: flex;
+    gap: 50px;
+}
+.p2{
+    font-size: 18px;
+    font-weight: 900;
+}
+.overview{
+    color: #9d9d9d;
+}
+.border2{
+    border: 3px solid #ec5be9;
+    background-color: #ec5be9;
+    border-radius: 30px;
+    width: 123px;
+    height: 33px;
+    margin: 10px 0px 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    border-radius: 20px;
+    padding-left: 10px;
+    width: 290px;
+    height: 40px;
+}
+.input{
+    margin: 10px 0px 0px 0px;
+    height: 20px;
+    width: 20px;
+}
+form{
+    text-align: center;
+    margin: 50px 0px;
+    
+}
+.div2{
+    margin: -517px 0px 0px 788px;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 20px;
+    width: 492px;
+    height: 550px;
+}
+.signup{
+    font-size: 35px;
+    font-weight: 900;
+    color: #3e27a1;
+}
+a{
+    text-decoration: none;
+    color: #74c8ec;
+}
+button{
+    width: 290px;
+    height: 40px;
+    text-align: center;
+    border: 1px solid #3e27a1;
+    border-radius: 20px;
+    color: white;
+    background-color: #3e27a1;
+}
+.button{
+    border: 1px solid #55b8e2;
+    background-color: #55b8e2;
+}
+.class{
+    color: #9d9d9d;
+}
+.agree{
+    margin: 0px 0px 0px 0px;
+}
+.learn{
+    border: 3px solid #ec5be9;
+    background-color: #ec5be9;
+    border-radius: 30px;
+    width: 123px;
+    height: 33px;
+    margin: 10px 0px 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 27px 0px 0px 242px;
+    color: white;
+
+}
+.one{
+ color: white;
+font-size: 24px;
+font-weight: 700;
+width: 422px;
+margin: -45px 0px 0px 223px;
+}
+.heading{
+    color: white;
+margin-left: 223px;
+font-size: 65px;
+font-weight: 700;
+width: 455px;
+margin-top: 90px;
+}
