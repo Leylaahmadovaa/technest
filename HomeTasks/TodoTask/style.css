@@ -1,0 +1,112 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #b07289;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+}
+.main{
+    padding-bottom: 20px;
+    background-color: white;
+    width: 60%;
+    border-radius: 20px;
+}
+h1{
+    text-align: center;
+}
+.TodoWriteAndAdd{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    margin-top: 30px;
+}
+.AddButton{
+    display: flex;
+    align-items: end;
+    margin-right: 100px;
+}
+
+.title{
+    width: 250px;
+    height: 30px;
+    border: 2px solid #e53170;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 15px;
+    margin-top: 10px;
+}
+#priority{
+    width: 250px;
+    height: 40px;
+    border: 2px solid #e53170;
+    border-radius: 10px;
+    font-weight: 600;
+    padding: 5px;
+    font-size: 15px;
+    margin-top: 10px;
+}
+.addbutton{
+    width: 120px;
+    height: 35px;
+    border-radius: 15px;
+    border: 1px solid #e53170;
+    background-color: #e53170;
+    color: white;
+    transition: all;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.addbutton:active{
+    transform: translate(1px,1px);
+    box-shadow: 1px 1px 1px gray;
+}
+.TodoList{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    align-items: center;
+    margin-top: 30px;
+}
+.Todo{
+    display: flex;
+    border: 1px solid gray;
+    border-radius: 15px;
+    width: 50%;
+    height: 80px;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.TaskPriority{
+    background-color: #fceef4;
+    width: 70px;
+    text-align: center;
+    padding: 3px;
+    border-radius: 5px;
+    font-weight: 600;
+    color: #783d59;
+}
+.Buttons{
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ width: 35%;
+}
+.Edit{
+    width: 70px;
+}
+.Delete{
+    width: 70px;
+}
+.info{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 8px;
+}
+
