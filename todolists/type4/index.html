@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Front</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+ <body>
+  <div class="container">
+    <div class="main">
+        <h1>To Do List</h1>
+        <div class="TodoWriteAndAdd">
+            <div class="Title">
+                <h3>Title</h3>
+                <input title="title" type="text" class="title">
+            </div>
+            <div class="Priority">
+                <h3>Priority</h3>
+                <select name="p" id="priority" title="priority">
+                    <option value="High">High</option>
+                    <option value="Medium">Medium</option>
+                    <option value="Low">Low</option>
+                </select>
+            </div>
+            <div class="AddButton">
+                <button type="button" title="addbutton" class="addbutton">Add new &plus;</button>
+            </div>
+        </div>
+        <div class="TodoList"></div>
+    </div>    
+  </div>
+ </body>
+</html>

@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #B07289;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    width: 60%;
+    border-radius: 20px;
+    gap: 50px;
+}
+h1{
+    text-align: center;
+}
+h2{
+    font-weight: 400;
+}
+input{
+    outline: none;
+    border: 2px solid #E53170;
+    border-radius: 5px;
+    padding: 10px;
+    width: 200px;
+}
+select{
+    width: 200px;
+    font-size: 16px;
+    padding: 10px;
+    border: 2px solid #E53170;
+    border-radius: 5px;
+}
+.addButton{
+    border-radius: 10px;
+    padding: 10px 20px;
+    background-color: #E53170;
+    color: white;
+    transition: all 100ms;
+    align-self: flex-end;
+}
+.addButton:active{
+    box-shadow: 2px 2px 2px gray;
+    transform: translate(2px,2px);
+}
+.TodoCreatebox{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.Todo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 50%;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 10px;
+}
+.info{
+    width: 70%;
+}
+.Todos{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+.todoTitle{
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.todoPriority{
+    background-color: #B07289;
+    color: white;
+    padding: 5px;
+}
