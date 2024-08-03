@@ -10,7 +10,7 @@ body{
         display: none;
     }
     header{
-        background-image: url(head\ bg.png);
+        background-image: url(assets/head\ bg.png);
         height: 275px;
         background-repeat: no-repeat;
         background-size:  cover;
@@ -97,7 +97,7 @@ body{
     }
 
     .backgroundimage{
-        background-image: url(head\ bg.png);
+        background-image: url(assets/head\ bg.png);
         height: 275px;
         background-repeat: no-repeat;
         background-size:  cover;
