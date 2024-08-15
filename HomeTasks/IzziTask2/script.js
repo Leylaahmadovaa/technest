@@ -16,22 +16,6 @@ async function getInfo(){
     let arr1=[]
     let arr2=[]
     let arr3=[]
-    let arrSortRatingAscendig=[]
-    let arrSortRatingDescendig=[]
-    let arrSortTaskCountAscendig=[]
-    let arrSortTaskCountDescendig=[]
-    let arr1SortRatingAscendig=[]
-    let arr1SortRatingDescendig=[]
-    let arr1SortTaskCountAscendig=[]
-    let arr1SortTaskCountDescendig=[]
-    let arr2SortRatingAscendig=[]
-    let arr2SortRatingDescendig=[]
-    let arr2SortTaskCountAscendig=[]
-    let arr2SortTaskCountDescendig=[]
-    let arr3SortRatingAscendig=[]
-    let arr3SortRatingDescendig=[]
-    let arr3SortTaskCountAscendig=[]
-    let arr3SortTaskCountDescendig=[]
     arr1=people.filter((element)=>{
         if(element.supervisor==true){
         return element;
@@ -47,46 +31,6 @@ async function getInfo(){
             return element;
             }
         });
-for(let j = 0; j < people.length; j++){
-    arrSortRatingAscendig.push(people[j])
-    arrSortRatingDescendig.push(people[j])
-    arrSortTaskCountAscendig.push(people[j])
-    arrSortTaskCountDescendig.push(people[j])
-}
-for(let j = 0; j < arr1.length; j++){
-    arr1SortRatingAscendig.push(arr1[j])
-    arr1SortRatingDescendig.push(arr1[j])
-    arr1SortTaskCountAscendig.push(arr1[j])
-    arr1SortTaskCountDescendig.push(arr1[j])
-}
-for(let j = 0; j < arr2.length; j++){
-    arr2SortRatingAscendig.push(arr2[j])
-    arr2SortRatingDescendig.push(arr2[j])
-    arr2SortTaskCountAscendig.push(arr2[j])
-    arr2SortTaskCountDescendig.push(arr2[j])
-}
-for(let j = 0; j < arr3.length; j++){
-    arr3SortRatingAscendig.push(arr3[j])
-    arr3SortRatingDescendig.push(arr3[j])
-    arr3SortTaskCountAscendig.push(arr3[j])
-    arr3SortTaskCountDescendig.push(arr3[j])
-}
-arrSortRatingAscendig.sort((a,b)=>a.averageRating-b.averageRating)
-arrSortRatingDescendig.sort((a,b)=>b.averageRating-a.averageRating)
-arrSortTaskCountAscendig.sort((a,b)=>a.completedTasks-b.completedTasks)
-arrSortTaskCountDescendig.sort((a,b)=>b.completedTasks-a.completedTasks)
-arr1SortRatingAscendig.sort((a,b)=>a.averageRating-b.averageRating)
-arr1SortRatingDescendig.sort((a,b)=>b.averageRating-a.averageRating)
-arr1SortTaskCountAscendig.sort((a,b)=>a.completedTasks-b.completedTasks)
-arr1SortTaskCountDescendig.sort((a,b)=>b.completedTasks-a.completedTasks)
-arr2SortRatingAscendig.sort((a,b)=>a.averageRating-b.averageRating)
-arr2SortRatingDescendig.sort((a,b)=>b.averageRating-a.averageRating)
-arr2SortTaskCountAscendig.sort((a,b)=>a.completedTasks-b.completedTasks)
-arr2SortTaskCountDescendig.sort((a,b)=>b.completedTasks-a.completedTasks)
-arr3SortRatingAscendig.sort((a,b)=>a.averageRating-b.averageRating)
-arr3SortRatingDescendig.sort((a,b)=>b.averageRating-a.averageRating)
-arr3SortTaskCountAscendig.sort((a,b)=>a.completedTasks-b.completedTasks)
-arr3SortTaskCountDescendig.sort((a,b)=>b.completedTasks-a.completedTasks)
 function Height(){
     if((bool1==true)&&(bool2!=true)){
         main.style.height="1257px"
@@ -147,7 +91,7 @@ function Arrays(arrays){
 }
 function boolonetwo(aaa,bbb,ccc,ddd){
 if((bool1==true)&&(bool2!=true)){         
-    Arrays(aaa)  
+Arrays(aaa)  
 }
 else if((bool1!=true)&&(bool2==true)){
 Arrays(bbb)
@@ -168,7 +112,7 @@ Supervisors.addEventListener("click",()=>{
             else{
                 bool1=false
             }
-            boolonetwo(arr1SortRatingAscendig,arr2SortRatingAscendig,arr3SortRatingAscendig,arrSortRatingAscendig)
+            boolonetwo(arr1.sort((a,b)=>a.averageRating-b.averageRating),arr2.sort((a,b)=>a.averageRating-b.averageRating),arr3.sort((a,b)=>a.averageRating-b.averageRating),people.sort((a,b)=>a.averageRating-b.averageRating))
         }
         else if((bool3!=true)&&(bool4==true)){
             if(Supervisors.checked==true){
@@ -177,7 +121,7 @@ Supervisors.addEventListener("click",()=>{
             else{
                 bool1=false
             }
-            boolonetwo(arr1SortTaskCountAscendig,arr2SortTaskCountAscendig,arr3SortTaskCountAscendig,arrSortTaskCountAscendig)
+            boolonetwo(arr1.sort((a,b)=>a.completedTasks-b.completedTasks),arr2.sort((a,b)=>a.completedTasks-b.completedTasks),arr3.sort((a,b)=>a.completedTasks-b.completedTasks),people.sort((a,b)=>a.completedTasks-b.completedTasks))
         }
         else if(descending_rating=="descending"){
             if(Supervisors.checked==true){
@@ -186,7 +130,7 @@ Supervisors.addEventListener("click",()=>{
             else{
                 bool1=false
             }
-            boolonetwo(arr1SortRatingDescendig,arr2SortRatingDescendig,arr3SortRatingDescendig,arrSortRatingDescendig)
+            boolonetwo(arr1.sort((a,b)=>b.averageRating-a.averageRating),arr2.sort((a,b)=>b.averageRating-a.averageRating),arr3.sort((a,b)=>b.averageRating-a.averageRating),people.sort((a,b)=>b.averageRating-a.averageRating))
         }
         else if(descending_count=="descending"){
             if(Supervisors.checked==true){
@@ -195,7 +139,7 @@ Supervisors.addEventListener("click",()=>{
         else{
             bool1=false
         }
-        boolonetwo(arr1SortTaskCountDescendig,arr2SortTaskCountDescendig,arr3SortTaskCountDescendig,arrSortTaskCountDescendig)
+            boolonetwo(arr1.sort((a,b)=>b.completedTasks-a.completedTasks),arr2.sort((a,b)=>b.completedTasks-a.completedTasks),arr3.sort((a,b)=>b.completedTasks-a.completedTasks),people.sort((a,b)=>b.completedTasks-a.completedTasks))
         }     
         else{
             if(Supervisors.checked==true){
@@ -216,7 +160,7 @@ eliteTasker.addEventListener("click",()=>{
         else{
             bool2=false
         }
-        boolonetwo(arr1SortRatingAscendig,arr2SortRatingAscendig,arr3SortRatingAscendig,arrSortRatingAscendig)
+        boolonetwo(arr1.sort((a,b)=>a.averageRating-b.averageRating),arr2.sort((a,b)=>a.averageRating-b.averageRating),arr3.sort((a,b)=>a.averageRating-b.averageRating),people.sort((a,b)=>a.averageRating-b.averageRating))
     }
     else if((bool3!=true)&&(bool4==true)){
         if(eliteTasker.checked==true){
@@ -225,7 +169,7 @@ eliteTasker.addEventListener("click",()=>{
         else{
             bool2=false
         }  
-        boolonetwo(arr1SortTaskCountAscendig,arr2SortTaskCountAscendig,arr3SortTaskCountAscendig,arrSortTaskCountAscendig)   
+        boolonetwo(arr1.sort((a,b)=>a.completedTasks-b.completedTasks),arr2.sort((a,b)=>a.completedTasks-b.completedTasks),arr3.sort((a,b)=>a.completedTasks-b.completedTasks),people.sort((a,b)=>a.completedTasks-b.completedTasks))
     }
     else if(descending_rating=="descending"){
         if(Supervisors.checked==true){
@@ -234,7 +178,7 @@ eliteTasker.addEventListener("click",()=>{
         else{
             bool1=false
         }
-        boolonetwo(arr1SortRatingDescendig,arr2SortRatingDescendig,arr3SortRatingDescendig,arrSortRatingDescendig)
+        boolonetwo(arr1.sort((a,b)=>b.averageRating-a.averageRating),arr2.sort((a,b)=>b.averageRating-a.averageRating),arr3.sort((a,b)=>b.averageRating-a.averageRating),people.sort((a,b)=>b.averageRating-a.averageRating))
     }
     else if(descending_count=="descending"){
         if(eliteTasker.checked==true){
@@ -243,7 +187,7 @@ eliteTasker.addEventListener("click",()=>{
         else{
             bool2=false
         }
-        boolonetwo(arr1SortTaskCountDescendig,arr2SortTaskCountDescendig,arr3SortTaskCountDescendig,arrSortTaskCountDescendig,)
+        boolonetwo(arr1.sort((a,b)=>b.completedTasks-a.completedTasks),arr2.sort((a,b)=>b.completedTasks-a.completedTasks),arr3.sort((a,b)=>b.completedTasks-a.completedTasks),people.sort((a,b)=>b.completedTasks-a.completedTasks))
     }
     else{
         if(eliteTasker.checked==true){
@@ -262,14 +206,14 @@ ByRating.addEventListener("click",()=>{
         bool4=false
         descending_rating="ascending"
         descending_count=""
-          boolonetwo(arr1SortRatingAscendig,arr2SortRatingAscendig,arr3SortRatingAscendig,arrSortRatingAscendig)   
+        boolonetwo(arr1.sort((a,b)=>a.averageRating-b.averageRating),arr2.sort((a,b)=>a.averageRating-b.averageRating),arr3.sort((a,b)=>a.averageRating-b.averageRating),people.sort((a,b)=>a.averageRating-b.averageRating))
     }
     else{
         bool3=false
         bool4=false
         descending_rating="descending"
         descending_count=""
-        boolonetwo(arr1SortRatingDescendig,arr2SortRatingDescendig,arr3SortRatingDescendig,arrSortRatingDescendig) 
+        boolonetwo(arr1.sort((a,b)=>b.averageRating-a.averageRating),arr2.sort((a,b)=>b.averageRating-a.averageRating),arr3.sort((a,b)=>b.averageRating-a.averageRating),people.sort((a,b)=>b.averageRating-a.averageRating))
     }
 })
 ByTasksCount.addEventListener("click",()=>{
@@ -278,14 +222,14 @@ ByTasksCount.addEventListener("click",()=>{
         bool3=false
         descending_count="ascending"
         descending_rating=""
-        boolonetwo(arr1SortTaskCountAscendig,arr2SortTaskCountAscendig,arr3SortTaskCountAscendig,arrSortTaskCountAscendig) 
+        boolonetwo(arr1.sort((a,b)=>a.completedTasks-b.completedTasks),arr2.sort((a,b)=>a.completedTasks-b.completedTasks),arr3.sort((a,b)=>a.completedTasks-b.completedTasks),people.sort((a,b)=>a.completedTasks-b.completedTasks))
     }
     else{
         bool4=false
         bool3=false
         descending_count="descending"
         descending_rating=""
-        boolonetwo(arr1SortTaskCountDescendig,arr2SortTaskCountDescendig,arr3SortTaskCountDescendig,arrSortTaskCountDescendig) 
+        boolonetwo(arr1.sort((a,b)=>b.completedTasks-a.completedTasks),arr2.sort((a,b)=>b.completedTasks-a.completedTasks),arr3.sort((a,b)=>b.completedTasks-a.completedTasks),people.sort((a,b)=>b.completedTasks-a.completedTasks))
     }
 })
 }
