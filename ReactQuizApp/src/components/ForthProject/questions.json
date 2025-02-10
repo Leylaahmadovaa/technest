@@ -1,0 +1,255 @@
+{
+    "questions": [
+      {
+        "question": "1. Which planet is known as the Red Planet?",
+        "options": {
+          "A": "Earth",
+          "B": "Mars",
+          "C": "Jupiter",
+          "D": "Saturn"
+        },
+        "correctAnswer": "B"
+      },
+      {
+        "question": "2. What is the capital city of France?",
+        "options": {
+          "A": "Berlin",
+          "B": "Madrid",
+          "C": "Paris",
+          "D": "Lisbon"
+        },
+        "correctAnswer": "C"
+      },
+      {
+        "question": "3. Which element does 'O' represent on the periodic table?",
+        "options": {
+          "A": "Oxygen",
+          "B": "Osmium",
+          "C": "Oganesson",
+          "D": "Ozone"
+        },
+        "correctAnswer": "A"
+      },
+      {
+        "question": "4. Who wrote the play 'Romeo and Juliet'?",
+        "options": {
+          "A": "Mark Twain",
+          "B": "J.K. Rowling",
+          "C": "William Shakespeare",
+          "D": "Charles Dickens"
+        },
+        "correctAnswer": "C"
+      },
+      {
+        "question": "5. What is the largest mammal in the world?",
+        "options": {
+          "A": "Elephant",
+          "B": "Blue Whale",
+          "C": "Giraffe",
+          "D": "Hippopotamus"
+        },
+        "correctAnswer": "B"
+      },
+      {
+        "question": "6. Which continent is the Sahara Desert located on?",
+        "options": {
+          "A": "Asia",
+          "B": "Africa",
+          "C": "Australia",
+          "D": "South America"
+        },
+        "correctAnswer": "B"
+      },
+      {
+        "question": "7. What is the hardest natural substance on Earth?",
+        "options": {
+          "A": "Gold",
+          "B": "Iron",
+          "C": "Diamond",
+          "D": "Granite"
+        },
+        "correctAnswer": "C"
+      },
+      {
+        "question": "8. What is the chemical symbol for water?",
+        "options": {
+          "A": "HO",
+          "B": "H2O",
+          "C": "O2H",
+          "D": "HHO"
+        },
+        "correctAnswer": "B"
+      },
+      {
+        "question": "9. Which organ is responsible for pumping blood through the body?",
+        "options": {
+          "A": "Lungs",
+          "B": "Heart",
+          "C": "Liver",
+          "D": "Kidney"
+        },
+        "correctAnswer": "B"
+      },
+      {
+        "question": "10. Which country is home to the Great Wall?",
+        "options": {
+          "A": "India",
+          "B": "China",
+          "C": "Japan",
+          "D": "Korea"
+        },
+        "correctAnswer": "B"
+      },
+      {
+        "question": "11. Which ocean is the largest by surface area?",
+        "options": {
+          "A": "Indian Ocean",
+          "B": "Atlantic Ocean",
+          "C": "Arctic Ocean",
+          "D": "Pacific Ocean"
+        },
+        "correctAnswer": "D"
+      },
+      {
+        "question": "12. Who is the author of the 'Harry Potter' series?",
+        "options": {
+          "A": "J.K. Rowling",
+          "B": "Tolkien",
+          "C": "Stephen King",
+          "D": "Agatha Christie"
+        },
+        "correctAnswer": "A"
+      },
+      {
+        "question": "13. What is the smallest prime number?",
+        "options": {
+          "A": "0",
+          "B": "1",
+          "C": "2",
+          "D": "3"
+        },
+        "correctAnswer": "C"
+      },
+      {
+        "question": "14. What is the longest river in the world?",
+        "options": {
+          "A": "Nile",
+          "B": "Amazon",
+          "C": "Yangtze",
+          "D": "Mississippi"
+        },
+        "correctAnswer": "A"
+      },
+      {
+        "question": "15. What is the main gas found in the air we breathe?",
+        "options": {
+          "A": "Oxygen",
+          "B": "Carbon Dioxide",
+          "C": "Nitrogen",
+          "D": "Hydrogen"
+        },
+        "correctAnswer": "C"
+      },
+      {
+        "question": "16. Which country is known as the Land of the Rising Sun?",
+        "options": {
+          "A": "China",
+          "B": "Japan",
+          "C": "South Korea",
+          "D": "Thailand"
+        },
+        "correctAnswer": "B"
+      },
+      {
+        "question": "17. How many continents are there on Earth?",
+        "options": {
+          "A": "5",
+          "B": "6",
+          "C": "7",
+          "D": "8"
+        },
+        "correctAnswer": "C"
+      },
+      {
+        "question": "18. What is the chemical symbol for gold?",
+        "options": {
+          "A": "Ag",
+          "B": "Au",
+          "C": "Gd",
+          "D": "Ge"
+        },
+        "correctAnswer": "B"
+      },
+      {
+        "question": "19. Which ocean is the Titanic shipwreck located in?",
+        "options": {
+          "A": "Pacific Ocean",
+          "B": "Indian Ocean",
+          "C": "Atlantic Ocean",
+          "D": "Arctic Ocean"
+        },
+        "correctAnswer": "C"
+      },
+      {
+        "question": "20. In which year did the World War I begin?",
+        "options": {
+          "A": "1914",
+          "B": "1939",
+          "C": "1812",
+          "D": "1901"
+        },
+        "correctAnswer": "A"
+      },
+      {
+        "question": "21. Which famous scientist introduced the theory of relativity?",
+        "options": {
+          "A": "Isaac Newton",
+          "B": "Nikola Tesla",
+          "C": "Albert Einstein",
+          "D": "Marie Curie"
+        },
+        "correctAnswer": "C"
+      },
+      {
+        "question": "22. What is the largest country in the world by land area?",
+        "options": {
+          "A": "Canada",
+          "B": "China",
+          "C": "Russia",
+          "D": "United States"
+        },
+        "correctAnswer": "C"
+      },
+      {
+        "question": "23. How many sides does a hexagon have?",
+        "options": {
+          "A": "4",
+          "B": "5",
+          "C": "6",
+          "D": "7"
+        },
+        "correctAnswer": "C"
+      },
+      {
+        "question": "24. What is the capital of Australia?",
+        "options": {
+          "A": "Sydney",
+          "B": "Melbourne",
+          "C": "Canberra",
+          "D": "Perth"
+        },
+        "correctAnswer": "C"
+      },
+      {
+        "question": "25. Which planet is the closest to the sun?",
+        "options": {
+          "A": "Venus",
+          "B": "Mercury",
+          "C": "Mars",
+          "D": "Earth"
+        },
+        "correctAnswer": "B"
+      }
+    ]
+  }
+  
